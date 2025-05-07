@@ -11,3 +11,5 @@ urlpatterns = [
     path('update/<int:id>/', views.student_update, name='student_update'),
     path('delete/<int:id>/', views.student_delete, name='student_delete'), # map root URL to index view
 ]
+
+# helllo
