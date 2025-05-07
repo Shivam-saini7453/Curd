@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/success.css' %}">
+</head>
+<body>
+    
+
+    <h2>Student added successfully!</h2>
+    <div class="add-button">
+        <a href="{% url 'index' %}" class="btn">Back to Home</a>
+        <a href="{% url 'student_list' %}" class="btn">show list</a>
+    </div>
+</body>
+</html>
